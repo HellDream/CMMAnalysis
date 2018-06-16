@@ -1,0 +1,18 @@
+//测试break语句、block语句
+int a = 0;
+int b = 1;
+while(a==0){
+	b=b+1;
+	break;
+}
+write(b);
+{
+int c = 0;
+c = c+1;
+write(c);
+}
+
+/*
+2
+1
+*/

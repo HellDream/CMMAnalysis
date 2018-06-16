@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact build-on-make="true" name="CMMAnalysis:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/CMMAnalysis_jar</output-path>
+    <root id="root">
+      <element id="archive" name="CMMAnalysis.jar">
+        <element id="directory" name="META-INF">
+          <element id="file-copy" path="$PROJECT_DIR$/META-INF/MANIFEST.MF" />
+        </element>
+        <element id="module-output" name="CMMAnalysis" />
+        <element id="library" level="project" name="substance" />
+      </element>
+    </root>
+  </artifact>
+</component>

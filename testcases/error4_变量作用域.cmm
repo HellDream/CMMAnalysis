@@ -1,0 +1,14 @@
+//不合理的变量作用域--blockStmt内定义同名变量
+int c = 23;
+double b[2];
+b[0] = 23;
+b[1] = 0;
+if(b[1] == 0){
+    double c = 23.5;
+    if(c == 23.5){
+        write(1);
+    }
+    else{
+        write(0);
+    }
+}

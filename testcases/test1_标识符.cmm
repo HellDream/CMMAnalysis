@@ -1,0 +1,4 @@
+//测试标识符是否合法
+int a_2;
+double r_2_r;
+double i,j=23,k;
